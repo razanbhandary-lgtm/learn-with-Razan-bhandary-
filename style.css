@@ -1,7 +1,0 @@
-body { font-family: Arial; max-width: 600px; margin: 50px auto; padding: 20px; background: #0a0a0a; color: #00ff00; }
-.container { background: #111; padding: 30px; border-radius: 10px; border: 1px solid #00ff00; }
-input, select, button { width: 100%; padding: 12px; margin: 8px 0; background: #1a1a1a; color: #00ff00; border: 1px solid #00ff00; border-radius: 5px; }
-button { background: #00ff00; color: #000; font-weight: bold; cursor: pointer; }
-button:hover { background: #00cc00; }
-h1 { color: #00ff00; text-shadow: 0 0 10px #00ff00; }
-a { color: #00ff00; }
