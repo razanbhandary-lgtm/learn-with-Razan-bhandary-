@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PhishLab - Generate Phishing Link</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🕵️ PhishLab</h1>
+        <p>Generate phishing link for testing</p>
+        <form id="generateForm">
+            <input type="text" id="studentId" placeholder="Student ID" required>
+            <input type="text" id="username" placeholder="Your Name" required>
+            <select id="platform" required>
+                <option value="">Select Platform</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="github">GitHub</option>
+                <option value="google">Google</option>
+                <option value="netflix">Netflix</option>
+                <option value="spotify">Spotify</option>
+                <option value="twitter">Twitter/X</option>
+            </select>
+            <button type="submit">🔥 Generate Phishing Link</button>
+        </form>
+        <div id="result" style="display:none;">
+            <h2>✅ Link Generated!</h2>
+            <p>Share this link: <a id="phishLink" href="#" target="_blank"></a></p>
+            <button onclick="viewData()">📊 View Captured Data</button>
+            <p id="dataDisplay"></p>
+        </div>
+        <hr>
+        <p style="color:#888; font-size:12px;">⚠️ For educational purposes only. Test on your own devices.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
